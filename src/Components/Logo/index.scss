@@ -1,0 +1,14 @@
+.logo-container{
+    z-index: 0;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: -35%;
+    right: 27%;
+    bottom: 0;
+    left:auto;
+    margin: auto;
+    rotate: 10deg;
+    opacity: 0;
+    animation: fadeIn 1s 1.7s forwards;
+}

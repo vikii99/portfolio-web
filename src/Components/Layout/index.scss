@@ -1,0 +1,123 @@
+.page{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.top-tags{
+    top: 30px;
+    bottom: auto;
+
+}
+
+.tags{
+    color: aqua;
+    opacity: 0.8;
+    position: inherit;
+    bottom: 0;
+    left: 140px;
+    font-size: 20px;
+    font-family: 'La Belle Aurore';
+    z-index: 0;
+}
+
+.body-tag-html{
+    margin-left: -20px;
+}
+
+.container{
+    width: 100%;
+    height: 90%;
+    will-change: contents;
+    position: absolute;
+    min-height: 566px;
+    opacity: 0;
+    top: 5%;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+}
+
+.container.about-page,
+.container.contact-page,
+.container.portfolio-page
+{
+    .text-zone{
+        position: absolute;
+        left: 10%;
+        top:43%;
+        transform: translateY(-50px);
+        width: 100%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+    }
+
+    h1{
+        font-size: 53px;
+        font-family: Coolvetica;
+        color:#fac133;
+        font-weight: 400;
+        margin-top: 0;
+        position: relative;
+        margin-bottom: 40px;
+        left: 10px;
+
+        &::before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore';
+      color: aqua;
+      font-size: 23px;
+      position: absolute;
+      margin-top: -20px;
+      left: 15px;
+      opacity: 0.8;
+    }
+
+    &::after {
+      content: '<h1/>';
+      font-family: 'La Belle Aurore';
+      color: aqua;
+      font-size: 23px;
+      line-height: 18px;
+      position: absolute;
+      left: -20px;
+      bottom: -30px;
+      opacity: .8;
+      animation: fadeIn 1s 1.7s backwards;
+    }
+    }
+    p{
+        font-size: 18px;
+        font-family: sans-serif;
+        color: rgba(255,255,255,0.8);
+        animation: pulse 1s;
+        font-weight: 250;
+        inline-size: 500px;
+
+        &:nth-of-type(1){
+            animation-delay: 1.1s;
+        }
+        &:nth-of-type(2){
+            animation-delay: 1.2s;
+        }
+        &:nth-of-type(3){
+            animation-delay: 1.3s;
+        }
+    }
+    .text-animation-hover{
+        min-width: 10px;
+        display: inline-block;
+        animation-fill-mode: forwards;
+
+        &:hover{
+        animation: rubberBand 1s;
+        color: #fff;
+
+}
+    }
+
+}
+

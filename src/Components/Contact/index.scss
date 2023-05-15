@@ -1,0 +1,104 @@
+.contact-info{
+  width: 35%;
+  top: -20px;
+  position: fixed;
+  
+
+}
+
+::placeholder { 
+  color: #fac133;
+  font-weight: 500;
+  opacity: 1; 
+}
+.contact-form {
+  width: 45%;
+  margin-top: 20px;
+  position: fixed;
+  right: 15%;
+  top:-50px;
+  margin-left: 0;
+  overflow: hidden;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    position: static;
+  
+
+    li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-bottom: 10px;
+      opacity: 0;
+      overflow: hidden;
+      display: flex;
+      clear: both;
+      position: relative;
+      animation: fadeInUp 2s 2s;
+      animation-fill-mode: forwards;
+
+    }
+
+    li.half{
+      width: 49%;
+      float:left;
+      margin-left: 2%;
+      clear: none;
+
+      &:first-child{
+        margin-left: 0;
+      }
+    }
+
+}
+
+input[type = 'text'],
+input[type = 'email']{
+  width: 100%;
+  border: 1px solid #fac133;
+  background: #0692af;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 10px;
+  color: #fac133;
+  font-family: Helvetica;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-weight: 300 ;
+}
+
+textarea{
+  width: 100%;
+  border: 1px solid #fac133;
+  background: #0692af;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 10px;
+  color: #fac133;
+  font-family: Helvetica;
+  padding: 10px 20px;
+  min-height: 150px;
+  box-sizing: border-box;
+
+}
+// #115173
+.flat-button{
+  background: #0692af;
+  border: 3px solid #fac133;
+  border-radius: 7px;
+  letter-spacing: 3px;
+  top: -10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: right;
+
+
+  &:hover{
+    background: #fac133;
+  }
+}
+
+
+}
