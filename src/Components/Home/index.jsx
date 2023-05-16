@@ -47,7 +47,7 @@ const Home = () => {
                 idx={15}
               />
             </h1>
-            <h2>Something about what i do</h2>
+            <h2>Making ideas come alive on the internet</h2>
 
             <Link to="/contact" className="flat-button">
               Contact Me
@@ -57,7 +57,7 @@ const Home = () => {
         </div>
         <Loader type="pacman" />
       </>
-    )
+    );
 }
 
 export default Home;

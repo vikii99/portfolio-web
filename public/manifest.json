@@ -4,16 +4,16 @@
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "3300x64 3200x32 2400x24 1600x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "Obi-Wan-Kenobi-PNG-Pic.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "Star-Wars-Obi-Wan-Kenobi-PNG-Download-Image.png",
       "type": "image/png",
       "sizes": "512x512"
     }
