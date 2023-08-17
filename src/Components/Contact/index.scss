@@ -7,7 +7,7 @@
 }
 
 ::placeholder { 
-  color: #fac133;
+  color: #ffffff;
   font-weight: 500;
   opacity: 1; 
 }
@@ -57,12 +57,12 @@
 input[type = 'text'],
 input[type = 'email']{
   width: 100%;
-  border: 1px solid #fac133;
+  border: 1px solid #fff;
   background: #0692af;
   height: 50px;
   font-size: 16px;
   border-radius: 10px;
-  color: #fac133;
+  color: #fff;
   font-family: Helvetica;
   padding: 0 20px;
   box-sizing: border-box;
@@ -71,12 +71,12 @@ input[type = 'email']{
 
 textarea{
   width: 100%;
-  border: 1px solid #fac133;
+  border: 1px solid #fff;
   background: #0692af;
   height: 50px;
   font-size: 16px;
   border-radius: 10px;
-  color: #fac133;
+  color: #fff;
   font-family: Helvetica;
   padding: 10px 20px;
   min-height: 150px;
@@ -86,7 +86,8 @@ textarea{
 // #115173
 .flat-button{
   background: #0692af;
-  border: 3px solid #fac133;
+  border: 3px solid #fff;
+  color: #fff;
   border-radius: 7px;
   letter-spacing: 3px;
   top: -10px;
